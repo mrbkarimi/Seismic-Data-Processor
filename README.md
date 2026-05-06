@@ -1,3 +1,9 @@
+
+<img width="950" height="982" alt="image" src="https://github.com/user-attachments/assets/573602a0-7564-4764-ac3f-ad97a081c0f1" />
+
+
+
+
 # Seismic Data Processor
 
 Seismic Data Processor is a Python/Tkinter desktop application for batch processing earthquake acceleration records. It supports common seismic data formats and provides tools for signal preprocessing, filtering, spectral analysis, intensity-measure calculation, response-spectrum analysis, visualization, and automated export of processed results.
