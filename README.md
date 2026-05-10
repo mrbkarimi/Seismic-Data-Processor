@@ -6,11 +6,11 @@
 
 # Seismic Data Processor
 
-Seismic Data Processor is a Python/Tkinter desktop application for batch processing earthquake acceleration records. It supports common seismic data formats and provides tools for signal preprocessing, filtering, spectral analysis, intensity-measure calculation, response-spectrum analysis, visualization, and automated export of processed results.
+Python/Tkinter desktop application for batch processing of acceleration time-series records (generic time–acceleration formats). The tool supports baseline-correction checks, Butterworth filtering, unit conversion, FFT analysis, PSD estimation using Welch's method, response-spectrum analysis (time-domain and FFT-based), intensity-measure calculation, and automated export of metadata, processed records, spectra, plots, and summary files.
 
 ## Key Features
 
-- Batch processing of earthquake acceleration records
+- Batch processing of time-acceleration records
 - Support for AFAD, PEER, and two-column time–acceleration formats
 - Unit conversion for acceleration records in g, m/s², and cm/s²
 - Baseline-correction check and optional correction
@@ -31,9 +31,9 @@ Seismic Data Processor is a Python/Tkinter desktop application for batch process
 
 The application currently supports:
 
+- Two-column time–acceleration files
 - AFAD strong-motion record format
 - PEER strong-motion record format
-- Two-column time–acceleration files
 - Text, CSV, and Excel-based acceleration records
 
 ## Outputs
@@ -63,7 +63,7 @@ The tool can generate:
 
 ## Purpose
 
-This tool was developed to support reproducible earthquake record processing and seismic response analysis. It is intended for research and educational use in earthquake engineering, seismic signal processing, structural dynamics, and data-driven seismic assessment.
+This tool was developed to support reproducible vibration (acceleration) record processing and dynamic response analysis. It is intended for research and educational use in signal processing, structural dynamics, vibration-based monitoring, and data-driven condition assessment.
 
 ## Author
 
